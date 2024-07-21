@@ -1,5 +1,3 @@
-## README.md
-
 # Surveillance de l'État des Hydrants Connectés
 
 Ce projet vise à surveiller l'état des hydrants en les rendant connectés et intelligents. Les hydrants détectent les anomalies, transmettent les informations pour traitement, et enregistrent les données dans une base de données adaptée.
@@ -17,7 +15,7 @@ Ce projet vise à surveiller l'état des hydrants en les rendant connectés et i
 
 ## Introduction
 
-Dans ce projet, l'objectif est de transformer les hydrants en dispositifs capables de surveiller leur propre état et les conditions environnantes. Cela inclut la détection de l'ouverture ou de la fermeture de la vanne, l'inclinaison, et les changements de température. Les informations sont ensuite envoyées, traitées, et stockées de manière sécurisée, avec la possibilité de déclencher des alertes pour informer rapidement les autorités municipales en cas d'anomalie .
+Dans ce projet, l'objectif est de transformer les hydrants en dispositifs capables de surveiller leur propre état et les conditions environnantes. Cela inclut la détection de l'ouverture ou de la fermeture de la vanne, l'inclinaison, et les changements de température. Les informations sont ensuite envoyées, traitées, et stockées de manière sécurisée, avec la possibilité de déclencher des alertes pour informer rapidement les autorités municipales en cas d'anomalie.
 
 ## Fonctionnalités
 
@@ -34,7 +32,7 @@ Dans ce projet, l'objectif est de transformer les hydrants en dispositifs capabl
    - Stockage structuré des informations transmises par les hydrants connectés pour un accès rapide et une analyse facilitée.
 
 5. **Développement du service REST** :
-   - Gestion des informations et des alertes via un service REST en PHP, capable d'envoyer des alertes par SMS ou email aux responsables concernés  .
+   - Gestion des informations et des alertes via un service REST en PHP, capable d'envoyer des alertes par SMS ou email aux responsables concernés.
 
 ## Installation
 
@@ -50,8 +48,8 @@ Dans ce projet, l'objectif est de transformer les hydrants en dispositifs capabl
 
 1. Cloner le dépôt :
    ```bash
-git clone https://github.com/Formidabledu59/Surveiller-l-etat-des-hydrants.git
-cd Surveiller-l-etat-des-hydrants
+   git clone https://github.com/Formidabledu59/Surveiller-l-etat-des-hydrants.git
+   cd Surveiller-l-etat-des-hydrants
    ```
 
 2. Configurer l'ESP32 et les capteurs selon les schémas fournis dans la section d'architecture et de développement.
@@ -83,7 +81,7 @@ cd Surveiller-l-etat-des-hydrants
    - Capteur de température, faible consommation d'énergie.
 
 5. **Modem Sigfox BRKWS01** :
-   - Transmission fiable des données sur de longues distances, faible consommation d'énergie    .
+   - Transmission fiable des données sur de longues distances, faible consommation d'énergie.
 
 ## Architecture et Développement
 
@@ -93,11 +91,11 @@ cd Surveiller-l-etat-des-hydrants
 
 ### DeepSleep
 
-Le mode DeepSleep de l'ESP32 permet de réduire la consommation d'énergie en désactivant les parties non essentielles du microcontrôleur. L'ESP32 peut se réveiller en réponse à plusieurs types d'événements, tels que des signaux externes sur des pins spécifiques et des timers .
+Le mode DeepSleep de l'ESP32 permet de réduire la consommation d'énergie en désactivant les parties non essentielles du microcontrôleur. L'ESP32 peut se réveiller en réponse à plusieurs types d'événements, tels que des signaux externes sur des pins spécifiques et des timers.
 
 ### Envoi des Données
 
-Les données sont transmises via le réseau Sigfox et traitées par un service REST en PHP, qui gère également les alertes en envoyant des SMS ou des emails aux responsables concernés   .
+Les données sont transmises via le réseau Sigfox et traitées par un service REST en PHP, qui gère également les alertes en envoyant des SMS ou des emails aux responsables concernés.
 
 ## Contraintes Techniques
 
@@ -105,10 +103,10 @@ Les données sont transmises via le réseau Sigfox et traitées par un service R
 - **Langage C/C++** pour le développement du logiciel embarqué.
 - **Étanchéité** des composants pour garantir leur fonctionnement dans toutes les conditions météorologiques.
 - **Réseau Sigfox** pour la transmission des données.
-- **Service REST en PHP** pour la gestion des alertes   .
+- **Service REST en PHP** pour la gestion des alertes.
 
 ## Auteurs
 
-- **Ayoub Fathallah** - Développeur IOT et BackEnd.
+ **Ayoub Fathallah**
 
 ---
