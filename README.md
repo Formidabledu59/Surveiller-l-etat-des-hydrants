@@ -50,8 +50,8 @@ Dans ce projet, l'objectif est de transformer les hydrants en dispositifs capabl
 
 1. Cloner le dépôt :
    ```bash
-   git clone https://github.com/votre-utilisateur/votre-projet.git
-   cd votre-projet
+git clone https://github.com/Formidabledu59/Surveiller-l-etat-des-hydrants.git
+cd Surveiller-l-etat-des-hydrants
    ```
 
 2. Configurer l'ESP32 et les capteurs selon les schémas fournis dans la section d'architecture et de développement.
