@@ -89,7 +89,7 @@ Dans ce projet, l'objectif est de transformer les hydrants en dispositifs capabl
 
 ### Diagramme de Déploiement
 
-![Diagramme de Déploiement](docs et liens/DiagrammeDeploiement.png)
+![Diagramme de Déploiement](docs%20et%20liens/DiagrammeDeploiement.png)
 
 ### DeepSleep
 
